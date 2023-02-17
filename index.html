@@ -1,0 +1,846 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Public Real Estate</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+		<link rel="stylesheet" href="tweaks.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-image="imgs/door.jpg" >
+
+					<h2 style="line-height: 0.8em;">RE01<span class="subtitle"><br />Lecture 12: Real Estate Securities</span></h2>
+
+					<p style="font-size: 0.8em; margin-top: 1.4em;">Thies Lindenthal / Colin Lizieri
+						<br /><a href="mailto:htl24@cam.ac.uk">htl24@cam.ac.uk</a>
+						<br />
+						<br />
+						February 2023</p>
+				</section>
+
+				<section data-markdown >
+					<textarea data-template>
+						## Real Estate Securities <span class="subtitle"><br/>Focus on public equity</span>
+						<img src="imgs/matrix.svg" height=400>
+					</textarea>
+				</section>
+
+			 <section data-markdown>
+			 	<textarea data-template>
+
+					## Public Equity<span class="subtitle"><br>Remainder of RE01 will focus on listed real estate equity</span>
+
+					* Topics Weeks 5 and 6
+						- Introduction to property companies
+						- Are REITs real estate?
+						- Capital structure, leverage, IPOs, M&A and financing
+						- Vehicle structure, governance and performance
+						- Listed securities, portfolios and international diversification
+					* Week 7
+						- Derivatives and synthetic real estate exposure
+
+			 	</textarea>
+			 </section>
+
+			 <section data-markdown >
+							 <textarea data-template>
+											## REITs <span class="subtitle"><br>Real Estate Investment Trusts: What's special about them? (Week 4, MT)</span>
+
+											* REITs come in different flavours internationally.
+											* Tax-exempt status
+											* Income must come from real estate
+											* 90% of the company’s rental profit must be paid out to shareholders via dividends.
+											* Diffused ownership: No controlling ownership stakes.
+							 </textarea>
+			 </section>
+
+
+
+<section data-markdown>
+	<textarea data-template>
+		## Real Estate Securities <span class="subtitle"><br>It is a huge topic area, vast literature: read, read, read.</span>
+
+		* Understanding REIT and property company history is essential
+			- Standard textbooks for basics, e.g. Brueggeman & Fisher or Geltner, Miller et al.
+			- Market data and background material from industry associations, e.g. NAREIT and EPRA plus news feeds on SNL
+		* REITs are a global vehicle now, not just a US story
+			- However, US REITs represent more than 50% of global listed real estate and dominate global indices (and research)
+			- REIT rules and REIT investment characteristics differ by market structure and legislation
+		* REITs form a dynamic area of research, journal articles are essential to developing an understanding of this asset class.
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		## REIT research <span class="subtitle"><br>Where to start?</span>
+
+		* Key topics include
+			- Investment behaviour
+			- Pricing models
+			- Return drivers
+			- Capital raising and capital structure
+			- Corporate governance
+			- Securities and global investment
+			- ... and much more
+		* Key readings will be made available on Moodle
+			- Can build from their bibliographies too, just a starting point
+		* Balance between academic and industry publications
+	</textarea>
+</section>
+
+
+<section>
+		<h2> Putting things into perspective<span class='subtitle'><br> What are we talking about?</span></h2>
+
+		<style>
+		#circleRE {
+								float: left;
+								width: 322px;
+								height: 322px;
+								-webkit-border-radius: 161px;
+								-moz-border-radius: 161px;
+								border-radius: 161px;
+								background: blue;
+						 }
+						 #circleFTSE {
+							 float: left;
+							 vertical-align: middle;
+								width: 218px;
+								height: 218px;
+								-webkit-border-radius: 109px;
+								-moz-border-radius: 109px;
+								border-radius: 109px;
+								background: red;
+						 }
+						 #circleREinvestable {
+							 									float: left;
+																 vertical-align: middle;
+																 width: 112px;
+																 height: 112px;
+																 -webkit-border-radius: 56px;
+																 -moz-border-radius: 56px;
+																 border-radius: 56px;
+																 background: orange;
+															}
+						#circleREITs {
+							 									float: left;
+																 vertical-align: middle;
+																 width: 34px;
+																 height: 34px;
+																 -webkit-border-radius: 17px;
+																 -moz-border-radius: 17px;
+																 border-radius: 17px;
+																 background: green;
+		 													}
+		 </style>
+
+		 <div class='figure boxwrapper'>
+					<div id="circleRE"></div>
+					<div id="circleFTSE"></div>
+					<div id="circleREinvestable"></div>
+					<div id="circleREITs"></div>
+		 </div>
+
+		 <p>&nbsp;<p>
+		 <ul>
+			 <li>Total UK real estate is worth £8-9trn. Market cap all companies listed on LSE: £3.8trn. Investable RE: £1trn (54% held by investors).</li>
+			 <li>REITs held ~£96bn in 2020.</li>
+		 </ul>
+
+  <aside class="notes">
+			 The IPF Size and Structure report for 2022 suggests
+			 <br>UK REITs own 15% of UK investment property with non-UK listed
+			 <br>owning a further 4% ~£96bn
+		 </aside>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		##  UK Real Estate<span class="subtitle"><br>End-2020 estimates</span>
+		<div class='figure'>
+			<p class='title'></p>
+			       <img src="imgs/ipf1.png" height="400">
+			<p class='source'>Source: <a href='https://www.ipf.org.uk/static/85607b6d-2535-499b-b963e53a5ae93faf/The-Size-Structure-of-the-UK-Property-Market-Year-end-2020-January-2022-Report.pdf'>Mansley et al. (2022)</a></p>
+		</div>
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		<div class='figure'>
+			<p class='title'></p>
+			       <img src="imgs/ipf2.svg" height="600">
+			<p class='source'>Source: <a href='https://www.ipf.org.uk/static/85607b6d-2535-499b-b963e53a5ae93faf/The-Size-Structure-of-the-UK-Property-Market-Year-end-2020-January-2022-Report.pdf'>Mansley et al. (2022)</a></p>
+		</div>
+	</textarea>
+</section>
+
+
+<section data-markdown>
+	<textarea data-template>
+		## Public Listed Real Estate <span class="subtitle"><br>Property Companies, Real Estate Operating Companies, REITs</span>
+
+		* Basic Premise
+			- Listed on stock exchange (sometime more than one)
+			- Stock readily traded & price quoted instantaneously
+			- Sell equity & debt to multiple investors
+			- Governed by boards of directors owned by shareholders
+		* Business Model
+			- Buy or develop real estate either to hold or trade
+			- Most raise debt financing alongside equity
+			- Limited governance/control for the “owner”
+		* Nuances
+			- May be able to opt for tax neutral status with constraints
+			- Generally internal management (but not necessary)
+			- Focus: diversified or specialised
+
+	</textarea>
+</section>
+
+
+<section data-markdown>
+	<textarea data-template>
+		## REOC vs. REIT <span class="subtitle"><br>Property Companies and Tax: This is why REITs are attractive</span>
+
+		* Own shares in Real Estate Operating Company (REOC) or own real estate?
+
+		* Tax position: Own the real estate
+			- Receive rental income, deduct costs: determines tax liability
+			- Trade property at profit, pay capital gains tax
+
+		* Tax position: Shares in property company
+			- Company rental income, less costs gives tax liability
+			- Pays tax, distributes dividend to shareholder
+			- Dividend taxable for shareholder
+			- Company sells property, makes capital gain, pays tax
+			- Investor sells shares, makes capital gain, pays tax
+
+		* This tax leakage leads to demand for REITs
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		## REITs, US-STYLE <span class="subtitle"><br>Created in 1960s to allow smaller investors to participate in property markets</span>
+
+		* Tax neutral, provided REIT meets qualification rules
+			- Ownership: Minimum of 100 shareholders
+			- Limited insider dominance: largest five shareholders may not hold more than 50%
+			- Assets: at least 75% of total assets in real estate assets, cash or government securities
+			- No more than 25% of assets may be represented by securities other than government securities
+			- Max 20% of assets within taxable REIT subsidiaries
+			- Income tests: 95% of income from dividends, interest, and property income AND >= 75% of gross income from rents of real property, interest on mortgages, gains on sales and dividends from REITs
+			- Distribution: 90% of taxable income must go to shareholders
+		* They can develop—as long as they adhere to above rules
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		##  US REITs 1971–2021<span class="subtitle"><br>Initial fall of 16% down post-pandemic reversed quickly</span>
+		<div class='figure'>
+			<p class='title'></p>
+			       <img src="imgs/usreits1.png" height="400">
+			<p class='source'>Source: NAREIT</p>
+		</div>
+	</textarea>
+</section>
+
+
+<section data-markdown>
+	<textarea data-template>
+		## US REITs 1971–2021 <span class="subtitle"><br>Some consolidation over pandemic period?</span>
+		<div class='figure'>
+			<p class='title'></p>
+			       <img src="imgs/usreits2.png" height="400">
+			<p class='source'>Source: NAREIT</p>
+		</div>
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		## Broad Mix of Investments<span class="subtitle"><br>Many REITs invest outside the traditional Commercial/Retail/Residential bins</span>
+		<div class='figure'>
+			<p class='title'></p>
+			       <img src="imgs/usreits3.png" height="450">
+			<p class='source'>Source: NAREIT</p>
+		</div>
+	</textarea>
+</section>
+
+
+
+
+
+<section data-markdown>
+	<textarea data-template>
+		## History <span class="subtitle"><br>What drove growth of REIT market in 1990s?</span>
+
+		* From 1960s to mid-1990s small, uninteresting Sector
+			- Significant role of mortgage REITs
+			- Too small to feature in index-tracking portfolios, few analysts
+			- Constraints on holdings from limits on investor control
+			- High share of retail investors: noise trading and volatility?
+
+		* 1990s Changes
+			- Creation of Umbrella–Partnership REITs (UPREITs)
+			- Look through procedures allow larger institutional holdings
+			- Growth in capitalization – more analysts and research
+			- Growth in capitalization – included in major indices, ETFs, MFs.
+			- Capozza calls this “the new REIT era”
+			- Do the changes make REITs more like equity investments?
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		##  Last decade<span class="subtitle"><br>What drove post-GFC growth? Too early to be definitive. Possible drivers:</span>
+
+
+		* Capital value appreciation from very low interest rates?
+		* Private real estate cashing out through launches? Were there private-public market arbitrage opportunities?
+		* M&A activity fuelling share price growth?
+		* Institutional capital hunting for yields?
+		* International capital hunting for yields?
+		* Creation of separate GICS classification for real estate? Forces index trackers to adjust holdings of real estate?
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		## United Nations of REITs <span class="subtitle"><br>US REIT market dominates thinking about REIT structures—but there is more</span>
+
+		* Long-established markets: Netherlands (1969), Australia (1971)
+		* Larger real estate markets slower to adopt but most do from 1990s onwards
+		* Accounting rules and REIT regimes vary by country
+			- Accounting IFRS versus US GAAP on fair value
+			- Leverage rules differ
+			- Rules on allowable holdings differ
+			- Rules on allowable development differ
+			- Tax rules differ – in particular regarding depreciation
+			- rules on distribution (and how it is treated) differ
+		* Cannot assume that all behave in same way
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		<div class='figure'>
+			<p class='title'></p>
+			       <img src="imgs/un-reits.png" height="600">
+			<p class='source'>Source: <a href='https://www.reit.com/investing/reit-basics/global-real-estate-investment'>NAREIT</a></p>
+		</div>
+	</textarea>
+</section>
+
+
+<section data-markdown>
+	<textarea data-template>
+		##  Tour d’Europe<span class="subtitle"><br>Europe, 2019 Pre-Pandemic Numbers—Why is there so much focus on REITs?</span>
+
+		<div class='smalltable figure'>
+
+		| Country | Enacted |# REITs |Market Cap 2019<br>US$ million | Total Listed RE<br>US$ million | Listed as <br>% CRE Market|
+		|--|---:|---:|---:|---:|---:|
+		|Belgium|1995|17 | 16.94| 22.54 | 10.0%|
+		| Bulgaria| 2004| 28|0.46|0.95 |5.4%|
+		| France|2003|29|57.72|63.06|5.3%|
+		|Germany|2007|6|4.61|112.93|6.9%|
+		|Greece|1999|5|2.74|3.46|4.2%|
+		|Ireland|2013|4|3.08|3.08|2.0%|
+		|Italy|2007|3|1.17|1.43|0.2%|
+		|Netherlands|1969|5|26.75|27.03|3.8%|
+		|Spain|2009 (2013)|72|26.74|33.40|5.6%|
+		|UK |2007|56|76.24|91.70|6.0%|
+
+		<p class='source'>Source: EPRA</p>
+		</div>
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		## Asia/Pacific <span class="subtitle"><br>Heterogeneity in external/internal management, foreign ownership, ...</span>
+
+		<div class='smalltable figure'>
+
+		|Country|REIT market cap.<br>billion USD|% of underlying market|
+		|---|---:|---:|
+		|Singapore|45.47|19%|
+		|Australia|85.15|13%|
+		|Hong Kong|23.8|11%|
+		|Malaysia|6.77|8%|
+		|New Zealand|2.9|24%|
+		|Japan|72.46|3%|
+
+		<p class='source'>Source: APREA</p>
+		</div>
+
+	</textarea>
+</section>
+
+
+<section data-markdown>
+	<textarea data-template>
+		## UK REITs<span class="subtitle"><br>Authorised from January 2007. Just one example of development and difference.</span>
+
+		* UK had well-established large listed property sector—but drive to create REITs from 1980s
+		* Company and listing rules
+			- Must be a closed ended company
+			- Must be listed on main stock exchange (first only LSE, AIM since 2012)
+			- Must have one class of (voting) shares
+			- Must be resident in UK for tax purposes
+			- Restrictions on large share-holdings (10% rule)
+		* Activity Rules
+			- Define a tax exempt business (ring-fenced)
+			- 75% of firm’s profit from real estate
+			- 75% of firm’s assets must be real estate
+			- Must have at least three properties (huh, what about that <a href='https://themailboxreit.com/'>Mailbox REIT</a>?)
+			- Development activity OK for portfolio building (3 year rule)
+	</textarea>
+</section>
+
+
+<section data-markdown>
+	<textarea data-template>
+		## UK REITs, cont'd
+
+		* Other constraints and rules
+			- Gearing rule: Profit/Finance Costs ≥ 1.25
+			- Conversion charge 2% of GAV (abolished in 2012)
+		* Tax and Distribution
+			- Tax exempt business (TEB), not subject to corporation tax
+			- 90% of profit must be distributed as Property Investment Dividend (PID)
+			- PID subject to withholding tax
+			- PID treated as property income for shareholders
+			- Capital allowances set vs. income in profits calculation
+			- Cannot offset losses inside/outside TEB
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		## Why REITs?<span class="subtitle"><br>Investment Advantages of Prop Co / REITs are evident</span>
+
+		* Low entry costs
+			- Low transaction costs
+			- Low entry price
+		* Ease of diversification
+			- Diversify by geography, sector
+		* Transparency
+			-	Traded on public exchanges
+			- Rich, high frequency data
+			- Statutory reporting requirements
+		* Strategic management
+			- Ease of portfolio rebalancing
+			- Retail-friendly ETF / mutual fund structures possible
+			- Can utilise hedge-fund type strategies (long-short etc.)
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		<p class='centred'>
+		<mark>However, are REITs real estate investments?</mark>
+		</p>
+	</textarea>
+</section>
+
+
+<section data-markdown data-background-image='imgs/bubbles.png'>
+	<textarea data-template>
+		## How to decide?<span class="subtitle"><br>Cashflows determine role in portfolio</span>
+
+		* It's about the characteristics of cashflows
+			- Not the label of investment
+		* Continuum between fixed income and<br>equity for each major group of<br>investment possible
+			- Junk bonds have equity characteristics,<br>preferred stock has bond-like attributes …
+		* What drives the cashflows?
+			- Returns
+			- Risk Factors
+			- Correlations
+
+	</textarea>
+</section>
+
+
+<section data-markdown>
+	<textarea data-template>
+		## Fish or Fowl?<span class="subtitle"><br>Are REITs Real Estate Investments?</span>
+
+		* Are REITs fundamentally different from regular corporations?
+		* Are they still property?
+		* Where can we place REITs?
+			- MACI/IPD versus EPRA and FTAS
+			- Real estate returns and the stock market
+			- Correlation and diversification
+			- International evidence
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		## Applying the Duck Test</span>
+		<div class='figure'>
+			<p class='title'>"If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck."</p>
+			       <img src="imgs/ducks.jpg" height="450">
+			<p class='source'>(these are geese, clearly)</p>
+		</div>
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		## Pricing and Property Companies <span class="subtitle"><br>(see MT material)</span>
+
+		* For REITs, dividend comes from income and income comes from rent. Value of firm depends on underlying asset values.
+		* Income basis of valuation
+			- Estimate Net Operating Income / Funds from Operation
+			- Capitalise NOI/FFO at appropriate rate
+		* Net Asset Value (NAV) basis of valuation
+			- Take appraised value of real estate, mark to market
+			- Mark debt to market and subtract from asset value
+			- Adjust for options and tax liability
+		* NAV Discounts … or Premia?
+			- Substantial literature on topic… but no all-encompassing answers
+			- Which factors relate to underlying real estate market?
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		## REIT Performance <span class="subtitle"><br>REIT indices track market capitalization of their constituents (like other stock indices)</span>
+
+		* EPRA/NAREIT Index
+			- Chained Paasche methodology
+			- Daily return calculated as the percentage difference between the index’s market cap at close of day and market cap at start of that day (dividends reinvested for total return)
+		* Indices updated anytime during trading hours
+		* Method and index composition transparent
+			- Easy to replicate/check—or to customize to your needs (video on VLE)
+			- Well suited for derivatives
+	</textarea>
+</section>
+
+
+<section data-markdown>
+	<textarea data-template>
+		## Similar returns?<span class="subtitle"><br>REIT and direct RE delivered same return 2005–2022?</span>
+		<div class='figure'>
+			<p class='title'></p>
+			       <img src="imgs/2023_01_REITs-vs-Stocks-Bonds-Private.jpg" height="450">
+			<p class='source'>Source: <a href='https://www.reit.com/investing/global-real-estate-investment'>NAREIT</a></p>
+		</div>
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		## Public vs. Private Property<span class="subtitle"><br>Stark differences: REITs not real estate?</span>
+		<div class='figure'>
+			<p class='title'>IPD (UK) and FTSE EPRA (UK), monthly returns 1989–2021</p>
+			       <img src="imgs/returns.png" height="400">
+			<p class='source'>Data: MSCI/IPD, EPRA</p>
+		</div>
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		## EPRA Returns vs. Stocks & IPD <span class="subtitle"><br></span>
+
+		<div class='smalltable centred figure'>
+
+		<p class="title">Mean, standard deviation and first order autocorrelation</p>
+
+		| | Mean| SD | FOAC |
+		|---|---:|---:|---:|
+		| PERE|0.60|1.01|<mark>0.88</mark>|
+		|Prop Co|0.57|5.57|0.15|
+		|FTAS|0.68|4.03|0.02|
+
+		<br>
+		<p class="title">Correlations</p>
+
+		| | PERE | Prop Co |FTAS|
+		|---|---:|---:|---:|
+		|PERE|1.00| | |
+		|Prop Co|0.24|1.00| |
+		|FTAS|0.11|<mark>0.60</mark>|1.00|
+
+		</div>
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		## IPD vs. EPRA <span class="subtitle"><br>Pronounced differences in volatility, update speed. Similar trend?</span>
+		<div class='figure'>
+			<p class='title'>Total Return Indices: UK direct and indirect RE</p>
+			       <img src="imgs/ipdepra.png" height="450">
+			<p class='source'>Data: MSCI/IPD, EPRA</p>
+		</div>
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		##  Deja vu: We have done this before<span class="subtitle"><br>Yes, we need to desmooth MSCI/IPD returns (they are valuation based!)</span>
+
+		* Valuation-based indices follow moving average process
+		* True variance is higher than variance reported in index
+		* Reduce impact of valuation by desmoothing
+
+			- `$ r_t = \alpha r_{t-1} + (1 - \alpha ) r^{*}_t $`
+
+			- `$ r^{*}_t = \frac{r_t-\alpha r_{t-1}} { 1-\alpha }  $`
+
+		* Remember that this is simplest possible procedure: see for example the Lizieri et al. 2012 (Real Estate Economics) for a regime-based model
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		## Desmothed returns <span class="subtitle"><br>Desmoothing with $\alpha$ = 0.7: SD up, FOAC down</span>
+
+		<div class='smalltable centred figure'>
+
+		<p class="title">Mean, standard deviation and first order autocorrelation</p>
+
+		| | Mean| SD | FOAC |
+		|---|---:|---:|---:|
+		| PERE|0.60|<mark>1.01</mark>|<mark>0.88</mark>|
+		PEREdesm.|0.61|<mark>1.71</mark>|<mark>0.24</mark>|
+		|Prop Co|0.57|5.57|0.15|
+		|FTAS|0.68|4.03|0.02|
+
+		<br>
+		<p class="title">Correlations</p>
+
+		| | PERE desm.| Prop Co |FTAS|
+		|---|---:|---:|---:|
+		|PERE desm.|1.00| | |
+		|Prop Co|0.23|1.00| |
+		|FTAS|0.12|<mark>0.60</mark>|1.00|
+
+		</div>
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		## Better! <span class="subtitle"><br>Turning points more in line, SD more comparable</span>
+
+		<div class='figure'>
+			<p class='title'></p>
+			       <img src="imgs/desm.png" height="450">
+			<p class='source'></p>
+		</div>
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		## REITs are geared<span class="subtitle"><br>MSCI/IPD asset level, ungeared returns</span>
+
+		* Must make assumptions about taxes and beta of debt
+			- results fairly robust to modifications
+			- Use spliced BOE data for int rates
+		* Assume average 40% D/V, 0.667 D/E ratio
+			- Obviously, gearing was not constant from 2000…
+		* M & M:
+			- `$ r_e = r_a \frac{D}{E} (r_a - r_d) $` and `$r_a = \frac{r_e + r_d \frac{D}{E}}{1+\frac{D}{E}}$`
+			- Adjust equity market returns `$r_e$` to estimate underlying asset returns `$r_a$`
+	</textarea>
+</section>
+
+
+<section data-markdown>
+	<textarea data-template>
+		## Degearing REIT returns <span class="subtitle"><br>Adjusting REIT Returns for Gearing. That correlation coefficient is very stubborn …</span>
+
+		<div class='smalltable centred figure'>
+
+		<p class="title">Mean, standard deviation and first order autocorrelation</p>
+
+		| | Mean| SD | FOAC |
+		|---|---:|---:|---:|
+		| PERE|0.60| 1.01 | 0.88 |
+		PEREdesm.|0.61|1.71|0.24 |
+		|Prop Co degeared|0.56|<mark>3.33</mark>|0.15|
+		|Prop Co|0.57|5.57|0.15|
+		|FTAS|0.68|4.03|0.02|
+
+		<br>
+		<p class="title">Correlations</p>
+
+		| | PERE desm.| EPRA deg. |FTAS|
+		|---|---:|---:|---:|
+		|PERE desm.|1.00| | |
+		|EPRA deg.|0.23|1.00| |
+		|FTAS|0.12|<mark>0.60</mark>|1.00|
+
+		</div>
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		## Similar enough? <span class="subtitle"><br>Does not look that different anymore… so, REITs are property?</span>
+		<div class='figure'>
+			<p class='title'></p>
+			       <img src="imgs/deg.png" height="450">
+			<p class='source'></p>
+		</div>
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		## Another view on the question  <span class="subtitle"><br><a href='https://doi.org/10.1016/j.jimonfin.2012.05.017'>Hoesli and Oikarinen (2012)</a>. Definitely worth a read.</span>
+		* Do listed real estate returns reflect direct real estate or general stock market?
+			- Use international sector-level data for US, UK and Australia
+		* Study covers the short- and long-term dynamics of the assets, correcting for leverage in the direct real estate indices
+		* Results suggest that long-run REIT market performance is more closely related to the direct real estate market than to general stocks, similar response to shocks in fundamentals
+		* Consequently, REITs and direct real estate should be relatively good substitutes in a long-horizon investment portfolio
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		## Response to Economic Shocks <span class="subtitle"><br>REITs and IPD have similar responses to macro shocks—different to equity!</span>
+		<div class='figure'>
+			<p class='title'></p>
+			       <img src="imgs/hoesli.png" height="450">
+			<p class='source'></p>
+		</div>
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		## In the Long Run... <span class="subtitle"><br>...REITs “are real estate”. But extended periods of deviation exist.</span>
+		<div class='figure'>
+			<p class='title'>Deviation of NCREIF from its Estimated Long-Run Relation with NAREIT</p>
+			       <img src="imgs/hoesli2.png" height="400">
+			<p class='source'>Source: Oikarinen, Hoesli & Serrano (2011),
+Journal of Real Estate Research</p>
+		</div>
+	</textarea>
+</section>
+
+
+<section data-markdown>
+	<textarea data-template>
+		## Triumph of REITs? <span class="subtitle"><br>Transparency, liquidity, ease of entry and exit.  Why isn't all RE owned by REITs?</span>
+
+		* Additional organizational layer
+			- Direct costs: substantial reporting/listing costs
+			- Indirect costs: conflict of interest between owners and management possible
+		* Corporate control for REITs
+			- REITs leave little free cash flow for management - does this reduce agency problems? But no large blockholders allowed...
+			- Agency problems mitigated by corporate control in regular corporations
+		* REIT management has (some) discretion: accounting, payout ratios
+			- Corporate controls matter for REITs with low payout ratios
+			- See <a href='https://doi.org/10.1111/j.1540-6229.2009.00252.x'>Bauer, Eichholtz & Kok (2010)</a>
+	</textarea>
+</section>
+
+
+<section data-markdown>
+	<textarea data-template>
+		<div class='figure'>
+			<p class='title'>Stuyvesant Town, New York City</p>
+			       <img src="imgs/stuy.jpg" height="550">
+			<p class='source'>Photo: <a href='https://www.flickr.com/photos/18378305@N00/'>
+Can Pac Swire
+</a></p>
+		</div>
+		Notes:
+
+	</textarea>
+</section>
+
+
+
+<section data-markdown>
+	<textarea data-template>
+		## No control <span class="subtitle"><br>Church of England lost 40 million—and reputation—in property deal</span>
+
+		* Peter Cooper Village and Stuyvesant Town are were sold to consortium led by Tishman Speyer / Blackrock for $5.4bn in 2006 (just before the GFC).
+			-	Controlling partners had little equity in deal, aggressive gearing + institutional money (CalPERS, CoE, ...)
+			- Debt burden too high, aggressive attempt to raise rents did not succeed, foreclosure. Investors lost invested funds—and potentially more.
+		* CalPERS, America’s largest pension fund, terminated BlackRock after disaster
+
+		Notes:
+
+
+    * If the asset had been owned directly and entirely by the Church Commissioners, they’d have not geared up as aggressively, and they might have been able to weather the GFC (bear in mind when the consortium acquired the asset). Whether this is down to their partner / consortium selection (i.e. poor cultural alignment) or specifically a lack of (or at least reduced) control is debateable, though worth noting that the two things are not mutually exclusive. Wherever you land in that debate, its clear that the consortium leaders took the vehicle in a direction that the Church wouldn’t go naturally with direct assets, and thus you can see that the Church had lost control.
+
+
+
+    * The church put its reputation in the hands of a partner / consortium, and lost control of it. Lots of veterans living in PCV, and were treated badly (which carries a huge reputational penalty that goes beyond the usual rep risk of mistreating customers / residents / tenants). Though I’m sure you’ll find examples where people might say otherwise, generally speaking the Church tries to be a ‘compassionate landlord’ that ‘does the right thing’ when managing directly owned assets. Same cannot be said re: PCV.
+	</textarea>
+</section>
+
+
+<section data-markdown>
+	<textarea data-template>
+		##  Summing up<span class="subtitle"><br></span>
+
+		* Measurement challenges
+			- “Raw” REIT returns do not measure pure asset return
+			- Impact of financing, different investment strategies
+			- Appraisal-based returns are not ideal either: too smooth
+		* Representativeness questions affect all <i></i>ndices
+			- Does it matter for market segments that are not available for investments? Probably not. But holdings of private investors, SWF, etc. are part of the investable universe.
+		* Are REITs Real Estate?
+			- In the long run, yes.
+	</textarea>
+</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				transition: 'none',
+				width: 1244,
+				height: 700,
+				margin: 0.1,
+				transition: "none",
+				math: {
+					mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+					config: 'TeX-AMS_HTML-full',
+					// pass other options into `MathJax.Hub.Config()`
+					TeX: { Macros: { RR: "{\\bf R}" } },
+					tex2jax: {
+  					inlineMath: [['$','$'], ['\\(','\\)']],
+    				processEscapes: true
+  					}
+				},
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
+			});
+		</script>
+	</body>
+</html>
